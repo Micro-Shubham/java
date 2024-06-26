@@ -6,6 +6,7 @@ public class classandObject {
         dog d1 = new dog();
         d1.age = 1;
         d1.legs = 4;
+        d1.name ="Leo";
         d1.bark();
         d1.walk();
 
@@ -19,9 +20,9 @@ class dog  {
     int legs;
     //behaiviour
     void bark() {
-        System.out.println("Dog is barking");
+        System.out.println( name+" is barking");
     }
     void walk() {
-        System.out.println("The dog walk on four legs ");
+        System.out.println( name+" walk on four legs ");
     }
 }
